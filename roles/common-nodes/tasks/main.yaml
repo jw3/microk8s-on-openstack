@@ -1,0 +1,8 @@
+- name: Increase max_map_count
+  command: sysctl -w vm.max_map_count=262144
+
+- name: Install NFS client
+  apt:
+    name: ['rpcbind', 'nfs-common']
+    state: present
+  environment: "{{ proxy_env }}"
