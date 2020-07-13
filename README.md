@@ -24,3 +24,4 @@ Mandatory environment variables
 ### reference
 
 - OpenStack roles https://github.com/infraly/k8s-on-openstack
+- MicroK8s roles https://github.com/ctc-oss/microkf-ansible
